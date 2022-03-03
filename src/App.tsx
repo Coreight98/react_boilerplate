@@ -1,7 +1,18 @@
-import React from "react";
+import styled from "./styled";
 
-function App() {
-  return <div></div>;
-}
+const Container = styled.div`
+  display: flex;
+  background-color: red;
+`;
+const Button = styled.button``;
+
+const App = () => {
+  return (
+    <div>
+      <Container>하이하이</Container>
+      <Button>안녕</Button>
+    </div>
+  );
+};
 
 export default App;
